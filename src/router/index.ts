@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 import EventView from '../views/EventView.vue'
-import ProfilePage from '../views/ProfilePage.vue'
 import CreateAccountView from '@/views/CreateAccountView.vue'
 import BountyView from '@/views/BountyView.vue'
 const router = createRouter({
@@ -27,11 +26,6 @@ const router = createRouter({
       path: '/login',
       name: 'login',
       component: LoginView
-    },
-    {
-      path: "/profile",
-      name: "profile",
-      component: ProfilePage
     },
     {
       path: "/CreateAccount",
